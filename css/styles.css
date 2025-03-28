@@ -11051,3 +11051,13 @@ html {
 .contact-me-here:hover{
   color: #303143;
 }
+.skills-box{
+  padding: 10px;
+  background-color: #fff;
+}
+.skills-label{
+  color: #101214;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+}
