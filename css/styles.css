@@ -11051,44 +11051,126 @@ html {
 .contact-me-here:hover{
   color: #303143;
 }
-.skills-box{
+/* .skills-box{
   padding: 20px;
   padding-bottom: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 500px;
+  height: 300px;
   background-image: linear-gradient(to right, #4682B4, #303143);
   color: #fff;
-  border-radius: 10px;
+  border-radius: 0;
   transition-duration: 2.0s;
-}
+} */
 
-.skills-box:hover{
+.skills-box{
   padding: 20px;
   padding-bottom: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   background-image: linear-gradient(to right, #fff, #fff);
   color: #303143;
   width: 500px;
+  height: 300px;
+  border-radius: 10px;
   transition-duration: 1.0s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills-label{
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #fff;
   padding: 20px;
-}
-.skills-label:hover{
-  border-style: solid;
-  border-color: #4682B4;
 }
 .skills-section{
   margin-left: 3rem;
 }
+#front-end-lable{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 3rem;
+  width: 500px;
+  height: 500px;
+}
+
+/* overly classes */
+/* Fornt end skills */
+.frontendSkillsHeading{
+  position: absolute;
+  color: #fff;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 2.0s;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #4682B4, #303143);
+}
+
+.frontendSkillsHeading:hover{
+  transition-duration: 1.0s;
+  opacity: 0%;
+}
+
+/* Back end skills */
+.backendendSkillsHeading{
+  position: absolute;
+  color: #fff;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 2.0s;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #4682B4, #303143);
+}
+
+.backendendSkillsHeading:hover{
+  transition-duration: 1.0s;
+  opacity: 0%;
+  }
+
+/* DEVOPS skills */
+.devopsSkillsHeading{
+  position: absolute;
+  color: #fff;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 2.0s;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #4682B4, #303143);
+}
+
+.devopsSkillsHeading:hover{
+  transition-duration: 1.0s;
+  opacity: 0%;
+}
+/* Security */
+.securitySkillsHeading{
+  position: absolute;
+  color: #fff;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 2.0s;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #4682B4, #303143);
+}
+
+.securitySkillsHeading:hover{
+  transition-duration: 1.0s;
+  opacity: 0%;
+}
+
 /* 400px */
 @media only screen and (max-width: 420px) {
   .skills-box{

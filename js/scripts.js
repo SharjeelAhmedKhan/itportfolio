@@ -52,3 +52,33 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+// Skills Section
+const frontendBox = document.getElementById("frontendSkillsHeading")
+frontendBox.addEventListener("onmouseover", frontendSection);
+
+function frontendSection() {
+  document.getElementById("").classList.toggle = "none";
+}
+
+const backendBox = document.getElementById("backendendSkillsHeading")
+backendBox.addEventListener("click", backendSection);
+
+function backendSection() {
+  document.getElementById("").style.display = "none";
+}
+
+const devopsBox = document.getElementById("devopsSkillsHeading")
+devopsBox.addEventListener("click", devopsSection);
+
+function devopsSection() {
+  document.getElementById("").style.display = "none";
+}
+
+const securityBox = document.getElementById("securitySkillsHeading")
+securityBox.addEventListener("click", securitySection);
+
+function securitySection() {
+  document.getElementById("security-box").style.display = "none";
+  securityBox.style.color = "green";
+}
